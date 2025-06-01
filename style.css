@@ -1,0 +1,64 @@
+.header{
+
+display: flex;
+align-items:center;
+gap: 20px;
+justify-content: end;
+margin-top: 10px;
+margin-right: 20px;
+
+}
+
+
+.dotsMenu{
+    height: 15px;
+    width: 15px;
+}
+
+
+.sign{
+    margin: 0;
+padding: 5px 10px 5px 10px;
+background: blue;
+opacity: 0.8;
+border-radius: 5px;
+border-color: transparent;
+
+}
+
+.google{
+
+    height: 150px;
+    width: 150px;
+}
+.searching{
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 0;
+margin: 0;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 300px;
+}
+
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  height: 16px;
+  width: 16px;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.input_field {
+    padding: 5px 10px 5px 35px; /* Extra left padding for icon space */
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
